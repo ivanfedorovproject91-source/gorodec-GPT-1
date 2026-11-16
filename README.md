@@ -19,6 +19,13 @@ npm run build
 npm run preview
 ```
 
+## Deploy to GitHub Pages
+The repository includes `.github/workflows/deploy.yml`. It builds the Vite app and publishes the `dist` directory automatically on every push to `main`.
+
+In GitHub, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**. The expected site URL is:
+
+`https://ivanfedorovproject91-source.github.io/gorodec-GPT-1/`
+
 ## Controls
 - Mouse wheel / trackpad scroll: zoom around the pointer.
 - Middle mouse button, right mouse button, or Space + drag: pan the camera.
